@@ -1,0 +1,1 @@
+"<create>\n<account id="123" balance="1000.1"/>\n<symbol sym="google">\n<account id="1">100</account>\n</symbol>\n</create>\n"

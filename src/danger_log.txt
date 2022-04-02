@@ -1,0 +1,19 @@
+1) Balance in account is not updated atomically: Balance is changed, but the transaction has not occured
+
+2) User tries to access account/Do transactions that doesn't belong to him/her
+
+3) SQL Injection attacks : We did not sanitise the input for DB query in SQL injection attack
+
+4) The length of XML query is wrong in transmission
+
+5) Database transactions are not concurrent - there are race conditions due to loading state from Database
+
+6) Matching two orders belonging to the same User
+
+7) Not refunding the balance to buyer, if executed price is lower than initial buying price
+
+8) Serializing the entire Server code, making multi-threading ineffective
+
+9) Executing inserting symbol for an account which doesnt exist
+
+10) Not connecting to postgreSQL database inside docker container properly
